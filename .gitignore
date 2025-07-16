@@ -1,0 +1,19 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Helm output
+*.tgz
+
+# System files
+.DS_Store
+
+# AWS CLI / auth
+.aws/
+eks update-kubeconfig *
