@@ -3,6 +3,8 @@
 *.tfstate.backup
 .terraform/
 .terraform.lock.hcl
+terraform.tfvars
+*.tfplan
 
 # Python cache
 **/__pycache__/
@@ -13,7 +15,11 @@
 
 # System files
 .DS_Store
+.vscode/
 
 # AWS CLI / auth
 .aws/
 eks update-kubeconfig *
+
+# Kubernetes secrets
+modules/jenkins/aws_credentials_secret.tf

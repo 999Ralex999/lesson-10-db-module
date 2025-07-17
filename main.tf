@@ -77,3 +77,8 @@ module "eks" {
 }
 
 
+module "jenkins" {
+  source       = "./modules/jenkins"
+  kubeconfig   = "~/.kube/config"
+  cluster_name = "lesson-7-cluster"
+}
