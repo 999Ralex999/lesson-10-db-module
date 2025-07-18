@@ -23,3 +23,13 @@ eks update-kubeconfig *
 
 # Kubernetes secrets
 modules/jenkins/aws_credentials_secret.tf
+
+# ❌ Неиспользуемые директории (в рамках теми 10)
+modules/jenkins/
+modules/argocd/
+modules/ecr/
+modules/eks/
+helm/
+django-app/
+django-chart/
+eks update-kubeconfig *
